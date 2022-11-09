@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Edit User</title>
+</head>
+<body>
+
+  <form id="user-form">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username">
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+
+    <label for="street">Street</label>
+    <input type="text" name="street" id="street">
+    
+    <label for="suite">Suite</label>
+    <input type="text" name="suite" id="suite">
+    
+    <label for="city">City</label>
+    <input type="text" name="city" id="city">
+    
+    <label for="zipcode">Zipcode</label>
+    <input type="text" name="zipcode" id="zipcode">
+    
+    <label for="lat">Lat</label>
+    <input type="text" name="lat" id="lat">
+    
+    <label for="lng">Lng</label>
+    <input type="text" name="lng" id="lng">
+
+    <label for="phone">Phone</label>
+    <input type="tel" name="phone" id="phone">
+
+    <label for="website">Website</label>
+    <input type="text" name="website" id="website">
+
+    <label for="company-name">Company Name</label>
+    <input type="text" name="companyName" id="company-name">
+
+    <label for="company-catch">Company catchphrase</label>
+    <input type="text" name="companyCatch" id="company-catch">
+
+    <label for="company-bs">Company bs</label>
+    <input type="text" name="companyBs" id="company-bs">
+
+    <input type="submit" value="Create User">
+  </form>
+
+  <div id="user-info"></div>
+
+  <script type="module" src="./edit-user.js"></script>
+
+  
+</body>
+</html>

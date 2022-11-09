@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Post Page</title>
+</head>
+<body>
+
+  <div id="post-wrapper"></div>
+  
+  <form id="create-comment-form">
+    <div class="form-control">
+      <label for="comment-name">Name:</label>
+      <input type="text" name="name" id="comment-name">
+    </div>
+
+    <div class="form-control">
+      <label for="comment-email">Email:</label>
+      <input type="email" name="email" id="comment-email">
+    </div>
+    
+    <div class="form-control">
+      <label for="comment-body">Body:</label>
+      <textarea name="body" id="comment-body" cols="30" rows="10"></textarea>
+    </div>
+
+    <input type="submit" value="Comment">
+  </form>
+  
+  <script type="module" src="./post.js"></script>
+
+  
+</body>
+</html>
